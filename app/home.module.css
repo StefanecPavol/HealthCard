@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid var(--text);
+}
+
+.wrapper h1 {
+    padding: 15px;
+    background-color: var(--purpleColor);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.loginBtn {
+    padding: 20px 25px;
+    background-color: var(--purpleColor);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.author {
+    margin-top: 20px;
+    font-style: italic;
+    color: var(--textSoft);
+}

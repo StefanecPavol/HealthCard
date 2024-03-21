@@ -1,0 +1,68 @@
+.container {
+    position:fixed;
+    width: 100%;
+}
+
+.linksContainer {
+    background-color: var(--bg);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.mobileUserInfo {
+    color: var(--textSoft);
+    text-align: center;
+}
+
+.adminLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adminLinks p {
+    color: var(--textSoft);
+    text-align: center;
+}
+
+.link {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--bgSoftest);
+    text-align: center;
+}
+
+.link:hover {
+    background-color: var(--purpleColor);
+    transition: .3s;
+}
+
+.button {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 21px;
+    top: 3px;
+    background-color: var(--bgSoft);
+    padding: 5px;
+    color: var(--text);
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    outline: transparent;
+    border-radius: 50%;
+    border: 2px solid var(--purpleColor);
+}
+
+.button:hover {
+    background-color: var(--purpleColor);
+    transition: .3s;
+}

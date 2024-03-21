@@ -1,0 +1,63 @@
+.container {
+    background-color: var(--bgSoft);
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.containerHeader {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.notificationsContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.oneNotif {
+    border: 2px solid var(--bgSoft);
+    background-color: var(--bgSoftest);
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.notifHeader {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--purpleColor);
+    border-radius: 5px;
+}
+
+.notifHeader h3 {
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.notifDate {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: right;
+    color: var(--textSoft);
+    font-size: 12px;
+}
+
+.oneNotifDesc {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.oneNotifDesc p {
+    letter-spacing: 1,1px;
+    width: 90%;
+    margin: 0 auto;
+}

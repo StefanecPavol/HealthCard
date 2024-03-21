@@ -1,0 +1,175 @@
+.container {
+    display: flex;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.menu {
+    flex: 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.logout {
+    display: none;
+    position: absolute;
+    top: 3px;
+    right: 21px
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+    .logout {
+        display: block;
+    }
+    .mobileMenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .userInfoRow {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.content {
+    flex: 4;
+    padding: 20px;
+}
+
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 80vh;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+.userMainInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userMainInfo p {
+    color: var(--textSoft);
+}
+
+.userMainInfo h2 {
+    font-weight: 400;
+}
+
+.userIcon {
+    padding: 10px;
+    background-color: var(--bgSoftest);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.rowLeft {
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    background-color: var(--purpleColor);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.rowDesc {
+    text-align: right;
+}
+
+.userInfoRow {
+    padding: 15px;
+    background: var(--bgSoftest);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;    
+    text-align: center;
+}
+
+
+.userDiagnosis {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.diagnosisTitle {
+    text-align: center;
+}
+
+.diagnosisTitleDesc {
+    color: var(--textSoft);
+    text-align: center;
+}
+
+.userMessagesContainer {
+    display: flex;
+    background-color: var(--bgSoftest);
+    width: 80%;
+    border-radius: 15px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.userMessagesTitle {
+    text-align: center;
+}
+    
+.messageContainer {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid var(--bgSoft);
+    margin: 15px 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.userMessageItemTitle {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--purpleColor);
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+.messageItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.messageCreatedAt {
+    color: var(--textSoft);
+}
+
+
+
+
+
+

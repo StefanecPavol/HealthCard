@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bgSoft);
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    gap: 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        width: 400px;
+    }
+}
+
+.formHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.form input {
+    padding: 30px;
+    border: 2px solid var(--bgSoftest);
+    border-radius: 5px;
+    background: var(--bg);
+    color: var(--text);
+    width: 100%;
+}
+
+.form input:focus, .form button:focus {
+    outline: 1px solid var(--bg)
+}
+
+.form button {
+    padding: 30px;
+    background-color: var(--purpleColor);
+    color: var(--text);
+    border: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}

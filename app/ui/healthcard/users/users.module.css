@@ -1,0 +1,121 @@
+.container {
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton {
+    padding: 10px;
+    background-color: var(--purpleColor);
+    color: var(--text);
+    border: transparent;
+    outline: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.iconMan {
+    background-color: var(--greenColor);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.iconWoman {
+    background-color: var(--purpleColor);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+
+.userImage {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: 2px solid var(--purpleColor);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--purpleColor);
+}
+
+.delete:hover {
+    background-color: crimson;
+}
+
+.delete {
+    background-color: crimson;
+    border: 2px solid crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**** USERS */
+
+.usersContainer {
+    display: flex;
+    width: 100%;
+    gap: 35px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;   
+    padding: 10px;
+    background-color: var(--bgSoftest);
+    border-radius: 15px;
+}
+
+.nameItem {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .usersContainer {
+        text-align: center;
+        flex-direction: column;
+    }
+}

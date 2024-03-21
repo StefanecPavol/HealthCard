@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--bgSoft);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+.userContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.userContainerItem {
+    background-color: var(--bgSoftest);
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    min-height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.profileBtnContainer {
+    margin: 0 auto;
+}
+
+.profileBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgSoftest);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.profileBtn:hover {
+    background-color: var(--purpleColor);
+    transition: .5s;
+}
+
+.formContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.formHeader {
+    font-weight: 400;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px;
+    background-color: var(--bgSoftest);
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.form input, .form textarea {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--purpleColor);
+    outline: transparent;
+    color: var(--textColor);
+    font-size: 17px;
+    width: 100%;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: var(--textColor);
+}
+
+.form textarea {
+    resize: vertical;
+    height: min-content;
+}
+
+.form button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--bgSoftest);
+    color: var(--textColor);
+    border: 2px solid var(--purpleColor);
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--purpleColor);
+    transition: .5s;
+}
+
+.messagesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneMessage {
+    width: 100%;
+    background-color: var(--bgSoftest);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.oneMessageText {
+    flex: 4;
+}
+
+.oneMessageForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.oneMessageBtn {
+    background-color: var(--bgSoftest);
+    border-radius: 5px;
+    color: var(--textColor);
+    border: 2px solid var(--purpleColor);
+    outline: transparent;
+    cursor: pointer;
+}
+
+.oneMessageBtn:hover {
+    background: var(--purpleColor);
+    transition: .5s;
+}

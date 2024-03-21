@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.infoContainer {
+    flex: 1;
+    background: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--textSoft);
+    height: max-content;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    flex: 3;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input, .form textarea, .form select {
+    padding: 20px;
+    border: 1px solid var(--purpleColor);
+    background: var(--bgSoft);
+    border-radius: 5px;
+    color: var(--text);
+    margin: 10px 0;
+    outline: transparent;
+}
+
+.form input:focus, .form textarea:focus, .form select:focus {
+    outline: 2px solid var(--text);
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: var(--text);
+}
+
+.form label {
+    font-size: 17px;
+    padding: 5px 10px;
+    background: var(--purpleColor);
+    border-radius: 5px;
+    width: max-content;
+}
+
+.form button {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--purpleColor);
+    color: var(--text);
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
